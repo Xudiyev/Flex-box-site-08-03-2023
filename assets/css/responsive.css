@@ -1,0 +1,32 @@
+
+@media only screen and(max-width:768px){
+    .container {
+        max-width: 319px;
+        justify-content: space-between;
+
+    }
+    
+    .section-body{
+        justify-content: space-between;
+    }
+}
+
+
+@media only screen and(max-width:576px){
+
+    .container {
+        max-width: 338px;
+    }
+    
+
+    
+     .section-body{
+        flex-direction: column;
+        align-items: center;
+    }
+   
+
+
+}
+
+
